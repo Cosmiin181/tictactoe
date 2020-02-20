@@ -16,7 +16,12 @@ function registerCellsEvent(){
     }
 }
 
-function gameInit(){
+function gameInit(){   
+    var player = "X";
+    var ai = "O";
+    var cells = array.from(document.querySelectorAll("cell-"));
+    var currentPlayer = player;
+    var winner = "";
 }
 
 function main(){
